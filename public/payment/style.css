@@ -1,0 +1,68 @@
+.StripeElement {
+    box-sizing: border-box;
+
+    height: 40px;
+
+    padding: 10px 12px;
+
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: white;
+
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+    box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+    border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+    background-color: #fefde5 !important;
+}
+
+body {
+    background: radial-gradient(rgba(51, 80, 80, 0.81),#285a51),url(../payment/card/dollar.gif);
+    background-size: cover;
+}
+.container {
+    padding: 19px 0px;
+    text-align: center;
+    color: #4900f9;
+}
+button {
+    background: #ff134a;
+    border: 0px;
+    padding: 11px 29px;
+    margin: 20px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.jumbotron {
+    background: #ffffff;
+    text-align: center;
+    color: #656565;
+    height: 423px;
+    width: 500px;
+    margin: 0 auto;
+    padding: 32px;
+}
+.jumbotron input {
+    padding: 12px 9px;
+    margin: 10px 0px;
+    width: 478px;
+    border: 1px solid #f3f3f3;
+    border-radius: 6px;
+    background: white;
+    box-shadow: 0px 2px 3px 1px #dedede26;
+}
+.paymed_details img {
+    width: 95%;
+    height: 120px;
+}
